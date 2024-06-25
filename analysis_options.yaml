@@ -1,0 +1,9 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  errors:
+    unused_import: error
+    file_names: error
+    depend_on_referenced_packages: error
+    unused_element: error
+    non_constant_identifier_names: ignore
